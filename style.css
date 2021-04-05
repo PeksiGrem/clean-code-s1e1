@@ -3,7 +3,7 @@
 body {
     background-color: #f8f8f8;
     color: #333;
-    font-family: "Lato", sans-serif;
+    font-family: Lato, sans-serif;
 }
 
 .eisenhower-matrix {
@@ -17,17 +17,19 @@ body {
     width: 100%;
 }
 
-.eisenhower-matrix .more_inf {
+.eisenhower-matrix .eisenhower-matrix__more-inf {
     font-family: "fantasy", cursive;
 }
 
 @media (max-width:768px) {
+
     .eisenhower-matrix {
         text-align: center;
     }
+
 }
 
-.centered-main-page-element {
+.centered-main {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -64,7 +66,7 @@ button {
     color: #888;
     font-size: 15px;
     width: 60px;
-    font-family: "Lato", sans-serif;
+    font-family: Lato, sans-serif;
     cursor: pointer;
 }
 
@@ -95,7 +97,7 @@ input[type="text"] {
     border: 1px solid #dDd;
     background: #FFF;
     border-radius: 6px;
-    font-family: "Lato", sans-serif;
+    font-family: Lato, sans-serif;
     color: #888;
 }
 
@@ -160,7 +162,7 @@ button.delete img:hover {
 /* Completed */
 
 ul#completed-tasks label {
-    text-decoration: "line-through";
+    text-decoration: line-through;
     color: #888;
 }
 
